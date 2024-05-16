@@ -12,23 +12,23 @@ export const NavBar = () => {
       <div className="wrapper">
         <div className="left">
           <div className="item">
-            <Link class="link" to="/products/1">
+            <Link className="link" to="/products/1">
               Posters
             </Link>
           </div>
           <div className="item">
-            <Link class="link" to="/products/2">
+            <Link className="link" to="/products/2">
               Shadow Boxes
             </Link>
           </div>
           <div className="item">
-            <Link class="link" to="/products/3">
+            <Link className="link" to="/products/3">
               3D Models
             </Link>
           </div>
         </div>
         <div className="center">
-          <Link class="link" to="/">
+          <Link className="link" to="/">
             OZStore
           </Link>
         </div>
@@ -43,12 +43,12 @@ export const NavBar = () => {
             </div>
           </div>
           <div className="item">
-            <Link class="link" to="/products/3">
+            <Link className="link" to="/products/3">
               About
             </Link>
           </div>
           <div className="item">
-            <Link class="link" to="/products/3">
+            <Link className="link" to="/products/3">
               Contact
             </Link>
           </div>

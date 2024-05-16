@@ -47,11 +47,11 @@ export default function Footer() {
       </div>
       <div className="bottom">
         <div className="left">
-          <div className="logo"></div>
-          <div className="copyright"></div>
+          <div className="logo">OzStore</div>
+          <div className="copyright">2024</div>
         </div>
         <div className="right">
-          <div className="paymentImage"></div>
+          <div className="paymentImage">VISA MASTER</div>
         </div>
       </div>
     </div>

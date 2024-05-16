@@ -1,0 +1,15 @@
+.FeaturedProducts {
+  margin: 100px 200px;
+
+  .top {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+  .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+}

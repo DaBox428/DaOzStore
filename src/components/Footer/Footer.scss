@@ -5,6 +5,33 @@
     display: flex;
     gap: 50px;
   }
+  .item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    font-size: 14px;
+  }
+
+  .h1 {
+    color: gray;
+  }
   .bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 25px;
+    .left {
+      display: FLEX;
+      align-items: center;
+      margin-top: 25px;
+      .logo {
+        margin: 6px;
+      }
+    }
+    .right {
+      margin-top: 25px;
+    }
   }
 }
