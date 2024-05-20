@@ -7,7 +7,8 @@ export default function Home() {
   return (
     <div>
       <Slider />
-      <FeaturedProducts type={"Featured Products"} />
+      <FeaturedProducts type={"Posters"} />
+      <FeaturedProducts type={"Shadow Boxes"} />
     </div>
   );
 }

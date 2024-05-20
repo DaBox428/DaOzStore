@@ -16,11 +16,13 @@ export const NavBar = () => {
               Posters
             </Link>
           </div>
+          <div className="itemSeparator">|</div>
           <div className="item">
             <Link className="link" to="/products/2">
               Shadow Boxes
             </Link>
           </div>
+          <div className="itemSeparator">|</div>
           <div className="item">
             <Link className="link" to="/products/3">
               3D Models
