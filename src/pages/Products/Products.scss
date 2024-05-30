@@ -1,19 +1,22 @@
 .Products {
-    padding: 30px 50px;
-    display: flex;
+  padding: 30px 50px;
+  display: flex;
 
-    
+  .left {
+    flex: 1;
+    position: sticky;
+    height: 100%;
+    top: 50px;
 
-    .left {
-        flex: 1;
-        position: sticky;
-        height: 100%;
-        top: 50px;
-
+    .filter {
+      .inputItem {
+        padding: 10px 0px 10px;
+      }
     }
-    .right {
-        flex: 3;
-
-    }
-
+  }
+  .right {
+    flex: 4;
+    flex-direction: column;
+    gap: 10px;
+  }
 }

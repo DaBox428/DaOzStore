@@ -5,10 +5,10 @@ import "./Home.scss";
 
 export default function Home() {
   return (
-    <div>
+    <>
       <Slider />
-      <FeaturedProducts type={"Posters"} />
+      <FeaturedProducts type={"Featured"} />
       <FeaturedProducts type={"Shadow Boxes"} />
-    </div>
+    </>
   );
 }

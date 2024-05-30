@@ -1,18 +1,62 @@
-.FeaturedProducts {
-  margin: 100px 200px;
+$baseColor: #212121;
+$AltBaseColor: #121212;
 
+.FeaturedProductsFeatured {
+  max-width: 100%;
+  height: 70vh;
+  margin: 100px 200px;
+  background-color: $baseColor;
+  max-height: 15%;
+  margin: 0;
   .top {
     display: flex;
-    justify-content: left;
-    margin-bottom: 50px;
+    justify-content: center;
+    padding-bottom: 10px;
+
+    h1 {
+      color: #d4d4d4;
+    }
   }
 
   .bottom {
-    display: flex;
-    justify-content: space-between;
-    
-    gap: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
 
-   
+    .slider {
+      display: flex;
+      justify-content: center;
+      gap: 5%;
+      background-color: $baseColor;
+    }
+  }
+}
+
+.FeaturedProductsShadow.Boxes {
+  max-width: 100%;
+  height: 25%;
+  height: 70vh;
+  margin: 100px 200px;
+  background-color: $AltBaseColor;
+
+  margin: 0;
+  .top {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+
+    h1 {
+      color: #d4d4d4;
+    }
+  }
+
+  .bottom {
+    padding-left: 5%;
+    padding-right: 5%;
+    .slider {
+      display: flex;
+      justify-content: center;
+      gap: 5%;
+      background-color: $AltBaseColor;
+    }
   }
 }

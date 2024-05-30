@@ -1,15 +1,18 @@
 .ProductCard {
-  width: 200px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
-  gap: 50px;
-  margin-left: 70px;
-  margin-right: 70px;
+
+  color: white;
+
+  .itemPrice {
+    font-style: italic;
+  }
 
   .image {
-    width: 400px;
-    height: 600px;
-    overflow: hidden;
+    width: 200px;
+    height: 300px;
+
     position: relative;
 
     &:hover {
@@ -42,7 +45,5 @@
       object-fit: cover;
       z-index: 1;
     }
-
-
   }
 }

@@ -1,8 +1,16 @@
 .slider {
-  height: calc(100vh - 80px);
-  width: 100vw;
+  width: 100%;
+  height: 95vh;
 
-  .img {
-    height: 100vh;
+  background-color: #121212;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    img {
+      width: 15%;
+      height: 15%;
+    }
   }
 }
